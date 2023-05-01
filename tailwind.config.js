@@ -10,6 +10,14 @@ export default {
 				'secondary-100': '#2D3134',
 				'secondary-300': '#5B5F62',
 			},
+			fontFamily: {
+				poppins: ['Poppins', 'sans-serif'],
+			},
+			screens: {
+				xs: '480px',
+				sm: '768px',
+				md: '1060px',
+			},
 		},
 	},
 	plugins: [],
