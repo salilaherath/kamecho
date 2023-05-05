@@ -22,7 +22,7 @@ const Navbar = () => {
 					</div>
 					{isAboveMediumScreen ? (
 						<div className="flex justify-between items-center w-full">
-							<div className="text-primary-300 text-base font-medium flex-1">
+							<div className="text-black text-base font-medium flex-1">
 								<ul className="flex gap-12 justify-end">
 									<li>
 										<a href="">Home</a>
@@ -41,17 +41,17 @@ const Navbar = () => {
 						</div>
 					) : (
 						<button
-							className="rounded-full bg-primary-300 p-2"
+							className="rounded-full p-2"
 							onClick={() => setIsMenuToggled(!isMenuToggled)}
 						>
-							<Bars3Icon className="h-6 w-6 text-white" />
+							<Bars3Icon className="h-6 w-6 text-black" />
 						</button>
 					)}
 				</div>
 			</div>
 			{/* MOBILE NAVBAR */}
 			{isMenuToggled && !isAboveMediumScreen && (
-				<div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-primary-300 drop-shadow-xl">
+				<div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-secondary-300 drop-shadow-xl">
 					{/* CLOSING */}
 					<div className="flex justify-end p-12">
 						<button onClick={() => setIsMenuToggled(!isMenuToggled)}>

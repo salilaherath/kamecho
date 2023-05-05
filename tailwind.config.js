@@ -5,10 +5,11 @@ export default {
 		extend: {
 			colors: {
 				'primary-100': '#FAF8ED',
-				'primary-300': '#2E476B',
+				'primary-300': '#80b918',
 				'primary-500': '#F66F4D',
 				'secondary-100': '#2D3134',
-				'secondary-300': '#5B5F62',
+				'secondary-300': '#2b9348',
+				'bg-green': '#d8f3dc',
 			},
 			fontFamily: {
 				poppins: ['Poppins', 'sans-serif'],
