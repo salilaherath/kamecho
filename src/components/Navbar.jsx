@@ -7,7 +7,7 @@ import useMediaQuery from '../hooks/useMediaQuery';
 
 const Navbar = () => {
 	const [isMenuToggled, setIsMenuToggled] = useState(false);
-	const isAboveMediumScreen = useMediaQuery('(min-width:1060px)');
+	const isAboveMediumScreen = useMediaQuery('(min-width:768px)');
 	return (
 		<motion.nav
 			variants={navVariants}
