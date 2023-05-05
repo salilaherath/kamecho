@@ -24,12 +24,12 @@ const Products = () => {
 					<div className="relative w-[100%] flex justify-between -z-[99] mt-6 md:mt-12">
 						<img
 							src={coco1}
-							alt=""
+							alt="Coconut Products"
 							className="w-[49%] h-60 object-cover rounded-lg shadow-lg md:h-60 xl:h-80"
 						/>
 						<img
 							src={coco2}
-							alt=""
+							alt="Coconut Products"
 							className="w-[49%] h-60 object-cover rounded-lg shadow-lg md:h-60 xl:h-80 absolute -top-[10%] right-0"
 						/>
 					</div>
@@ -48,12 +48,12 @@ const Products = () => {
 					<div className="relative w-[100%] flex justify-between -z-[99] mt-6 md:mt-12">
 						<img
 							src={betel1}
-							alt=""
+							alt="Betel Products"
 							className="w-[49%] h-60 object-cover rounded-lg shadow-lg md:h-60 xl:h-80"
 						/>
 						<img
 							src={betel2}
-							alt=""
+							alt="Betel Products"
 							className="w-[49%] h-60 object-cover rounded-lg shadow-lg md:h-60 xl:h-80 absolute -top-[10%] right-0 xl:top-[10%]"
 						/>
 					</div>

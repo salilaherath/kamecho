@@ -10,8 +10,8 @@ const About = () => {
 					which provides diversified management solutions for global companies.
 					Our services include Management consultations for start-ups, Marketing
 					solutions, Web based solutions, Online stores and a trading platform.
-				</p>
-				<p className="text-black text-base text-justify md:text-lg mt-4 xl:mt-12 lg:text-xl xl:text-2xl xl:text-center">
+					<br />
+					<br />
 					We were established on 25th of August 2021 with a team of experts in
 					IT, Marketing, HR and Strategic Management. With the expansion of the
 					project portfolio, we started to get advise from industry experts to
