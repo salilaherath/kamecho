@@ -2,9 +2,9 @@ import HeroImg from '../assets/Hero.jpg';
 
 const Hero = () => {
 	return (
-		<div>
+		<div id="hero">
 			{/* <div className="md:h-[80vh] w-full"> */}
-			<div className="bg-black h-[30vh] w-full relative md:h-[40vh] xl:h-[70vh]">
+			<div className="bg-black h-[30vh] w-full relative md:h-[40vh] xl:h-[70vh] mt-12 md:mt-16">
 				<img
 					className="h-full w-full object-cover absolute object-center"
 					src={HeroImg}

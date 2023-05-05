@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { navVariants } from '../utils/motion';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import useMediaQuery from '../hooks/useMediaQuery';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 	const [isMenuToggled, setIsMenuToggled] = useState(false);
@@ -15,26 +16,71 @@ const Navbar = () => {
 			whileInView="show"
 			viewport={{ once: true }}
 		>
-			<div className="flex items-center justify-between py-6 w-full">
+			<div className="flex items-center justify-between py-6 h-12 md:h-16 w-full fixed z-[99] top-0 bg-white drop-shadow-xl">
 				<div className="flex items-center justify-between w-4/5 mx-auto gap-20">
 					<div className="flex items-center justify-center gap-2">
-						<img className="h-8 xl:h-10 " src={Logo} alt="logo" />
+						<Link
+							to="hero"
+							spy={true}
+							smooth={true}
+							offset={-100}
+							duration={500}
+							className="cursor-pointer"
+						>
+							<img className="h-5 md:h-7 xl:h-10 " src={Logo} alt="logo" />
+						</Link>
 					</div>
 					{isAboveMediumScreen ? (
 						<div className="flex justify-between items-center w-full">
-							<div className="text-black text-base font-medium flex-1">
-								<ul className="flex gap-12 justify-end">
+							<div className="text-black text-base font-medium flex-1 ">
+								<ul className="flex gap-12 justify-end ">
 									<li>
-										<a href="">Home</a>
+										<Link
+											to="hero"
+											spy={true}
+											smooth={true}
+											offset={-100}
+											duration={500}
+											className="hover:border-b-secondary-300 active:border-b-secondary-300 border-transparent border-2 cursor-pointer"
+										>
+											Home
+										</Link>
 									</li>
 									<li>
-										<a href="">About Us</a>
+										<Link
+											to="about"
+											spy={true}
+											smooth={true}
+											offset={0}
+											duration={500}
+											className="hover:border-b-secondary-300 active:border-b-secondary-300 border-transparent border-2 cursor-pointer"
+										>
+											About Us
+										</Link>
 									</li>
 									<li>
-										<a href="">Products</a>
+										<Link
+											to="products"
+											spy={true}
+											smooth={true}
+											offset={-80}
+											duration={500}
+											className="hover:border-b-secondary-300 active:border-b-secondary-300 border-transparent border-2 cursor-pointer"
+										>
+											Products
+										</Link>
 									</li>
 									<li>
-										<a href="">Contact Us</a>
+										<Link
+											to="contact"
+											spy={true}
+											smooth={true}
+											offset={50}
+											duration={500}
+											className="hover:border-b-secondary-300 active:border-b-secondary-300 border-transparent border-2 cursor-pointer"
+										>
+											Contact
+										</Link>
 									</li>
 								</ul>
 							</div>
@@ -62,16 +108,52 @@ const Navbar = () => {
 					<div className="ml-[33%] ">
 						<ul className="flex flex-col gap-10 text-xl text-white">
 							<li>
-								<a href="#home">Home</a>
+								<Link
+									to="hero"
+									spy={true}
+									smooth={true}
+									offset={-100}
+									duration={500}
+									onClick={() => setIsMenuToggled(!isMenuToggled)}
+								>
+									Home
+								</Link>
 							</li>
 							<li>
-								<a href="#countries">About Us</a>
+								<Link
+									to="about"
+									spy={true}
+									smooth={true}
+									offset={0}
+									duration={500}
+									onClick={() => setIsMenuToggled(!isMenuToggled)}
+								>
+									About Us
+								</Link>
 							</li>
 							<li>
-								<a href="">Products</a>
+								<Link
+									to="products"
+									spy={true}
+									smooth={true}
+									offset={-80}
+									duration={500}
+									onClick={() => setIsMenuToggled(!isMenuToggled)}
+								>
+									Products
+								</Link>
 							</li>
 							<li>
-								<a href="">Contact Us</a>
+								<Link
+									to="contact"
+									spy={true}
+									smooth={true}
+									offset={50}
+									duration={500}
+									onClick={() => setIsMenuToggled(!isMenuToggled)}
+								>
+									Contact
+								</Link>
 							</li>
 						</ul>
 					</div>
