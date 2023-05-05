@@ -5,8 +5,8 @@ import betel2 from '../assets/Betel2.jpg';
 
 const Products = () => {
 	return (
-		<div className=" mt-8 w-full flex flex-col items-center xl:mt-20">
-			<div className="w-4/5 absolute">
+		<div className="mt-8 w-full flex flex-col items-center xl:mt-20">
+			<div className="relative z-[1] w-4/5 ">
 				<h1 className="text-xl text-center font-semibold md:text-4xl xl:text-5xl">
 					PRODUCTS
 				</h1>
