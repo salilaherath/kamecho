@@ -16,9 +16,9 @@ const Navbar = () => {
 			viewport={{ once: true }}
 		>
 			<div className="flex items-center justify-between py-6 w-full">
-				<div className="flex items-center justify-between w-5/6 mx-auto gap-20">
+				<div className="flex items-center justify-between w-4/5 mx-auto gap-20">
 					<div className="flex items-center justify-center gap-2">
-						<img className="h-12" src={Logo} alt="logo" />
+						<img className="h-8 xl:h-10 " src={Logo} alt="logo" />
 					</div>
 					{isAboveMediumScreen ? (
 						<div className="flex justify-between items-center w-full">
