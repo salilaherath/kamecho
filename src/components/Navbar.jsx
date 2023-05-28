@@ -1,7 +1,5 @@
 import { useState } from "react";
 import Logo from "../assets/Logo.png";
-import { motion } from "framer-motion";
-import { navVariants } from "../utils/motion";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { Link } from "react-scroll";
@@ -10,18 +8,8 @@ const Navbar = () => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isAboveMediumScreen = useMediaQuery("(min-width:768px)");
 
-  //   const activeLink = "border-b-secondary-300 border-2 cursor-pointer";
-  //   const normalLink =
-  //     "hover:border-b-secondary-300 border-transparent border-2 cursor-pointer";
-
   return (
-    <motion.nav
-      variants={navVariants}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: true }}
-      className="fixed top-0 left-0 right-0 z-50"
-    >
+    <nav className="fixed top-0 left-0 right-0 z-50">
       <div className="flex items-center justify-between py-6 h-12 md:h-16 w-full bg-white drop-shadow-xl">
         <div className="flex items-center justify-between w-4/5 mx-auto gap-20">
           <div className="flex items-center justify-center gap-2">
@@ -166,7 +154,7 @@ const Navbar = () => {
           </div>
         </div>
       )}
-    </motion.nav>
+    </nav>
   );
 };
 

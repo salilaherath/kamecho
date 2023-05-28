@@ -22,7 +22,7 @@ const Contact = () => {
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-        className="border-0 mb-10 h-[400px] w-[400px] md:h-[450px] md:w-[700px] xl:h-[450px] xl:w-[800px]"
+        className="border-0 mb-10 h-[400px] w-[350px] md:h-[450px] md:w-[700px] xl:h-[450px] xl:w-[800px]"
       ></iframe>
     </div>
   );
