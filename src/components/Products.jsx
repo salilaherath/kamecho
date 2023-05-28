@@ -3,6 +3,7 @@ import coco2 from '../assets/Coco2.jpg';
 import betel1 from '../assets/Betel1.jpg';
 import betel2 from '../assets/Betel2.jpg';
 
+
 const Products = () => {
 	return (
 		<div
@@ -43,9 +44,7 @@ const Products = () => {
 							KAM BETEL PRODUCTS
 						</h2>
 						<p className="text-base text-justify md:text-lg mt-4 xl:mt-12 lg:text-lg xl:text-xl">
-							We are suppliers of Eco products such as Coco peat grow bags,
-							Activated carbon made out of coconut shell charcoal, Coconut oil,
-							Desiccated coconut, Coconut peat and Handcrafts.
+							Betel cultivation is a significant agricultural practice in the area, primarily driven by the demand for betel leaves, which are widely used in traditional and cultural practices such as chewing betel quids.
 						</p>
 					</div>
 					<div className="relative w-[100%] flex justify-between -z-[99] mt-6 md:mt-12">
