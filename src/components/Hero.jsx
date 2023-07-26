@@ -11,7 +11,7 @@ import { Pagination, Autoplay } from "swiper";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[35vh] md:h-[50vh] xl:h-[80vh]" id="hero">
+    <div className="relative w-full h-[40vh] md:h-[50vh] xl:h-[80vh]" id="hero">
       <div className="absolute top-[40%] left-0 z-10 w-full text-center">
         <h1 className="text-lg text-white font-semibold drop-shadow-md md:text-4xl xl:text-4xl">
           Welcome to
@@ -30,39 +30,39 @@ const Hero = () => {
         loop={true}
         slidesOffsetAfter={0}
         modules={[Autoplay, Pagination]}
-        className="mySwiper h-[35vh] md:h-[50vh] xl:h-[80vh]"
+        className="mySwiper w-full h-[40vh] md:h-[50vh] xl:h-[80vh]"
       >
         <SwiperSlide>
           <img
-            className="object-cover object-center"
+            className="object-cover object-center w-full h-[40vh] md:h-[50vh] xl:h-[80vh]"
             src={Hero1}
             alt="Hero Image"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="object-cover object-center"
+            className="object-cover object-center w-full h-[40vh] md:h-[50vh] xl:h-[80vh]"
             src={Hero2}
             alt="Hero Image"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="object-cover object-center"
+            className="object-cover object-center w-full h-[40vh] md:h-[50vh] xl:h-[80vh]"
             src={Hero3}
             alt="Hero Image"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="object-cover object-center"
+            className="object-cover object-center w-full h-[40vh] md:h-[50vh] xl:h-[80vh]"
             src={Hero4}
             alt="Hero Image"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="object-cover object-center"
+            className="object-cover object-center w-full h-[40vh] md:h-[50vh] xl:h-[80vh]"
             src={Hero5}
             alt="Hero Image"
           />
