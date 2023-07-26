@@ -64,7 +64,7 @@ const Products = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col-reverse mt-6 md:flex-row-reverse md:items-center md:gap-6 xl:mt-16">
+        <div className="flex flex-col-reverse mt-6 md:flex-row md:items-center md:gap-6 xl:mt-16">
           <div className="text-black text-center md:text-left md:w-[90%]">
             <h2 className="text-lg mt-4 font-semibold md:text-2xl xl:text-3xl">
               BUSINESS CONSULTATION
@@ -78,13 +78,13 @@ const Products = () => {
           <div className="relative w-[100%] flex justify-between -z-[99] mt-6 md:mt-12">
             <img
               src={business1}
-              alt="Business Consultation"
+              alt="Coconut Products"
               className="w-[49%] h-60 object-cover rounded-lg shadow-lg md:h-60 xl:h-80"
             />
             <img
               src={business2}
-              alt="Business Consultation"
-              className="w-[49%] h-60 object-cover rounded-lg shadow-lg md:h-60 xl:h-80 absolute -top-[10%] right-0 xl:top-[10%]"
+              alt="Coconut Products"
+              className="w-[49%] h-60 object-cover rounded-lg shadow-lg md:h-60 xl:h-80 absolute -top-[10%] right-0"
             />
           </div>
         </div>
