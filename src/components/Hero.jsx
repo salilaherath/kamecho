@@ -1,8 +1,8 @@
-import Hero1 from "../assets/Hero1.jpg";
-import Hero2 from "../assets/Hero2.jpg";
-import Hero3 from "../assets/Hero3.jpg";
-import Hero4 from "../assets/Hero4.jpg";
-import Hero5 from "../assets/Hero5.jpg";
+import Hero1 from "../assets/Hero1.webp";
+import Hero2 from "../assets/Hero2.webp";
+import Hero3 from "../assets/Hero3.webp";
+import Hero4 from "../assets/Hero4.webp";
+import Hero5 from "../assets/Hero5.webp";
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -11,7 +11,7 @@ import { Pagination, Autoplay } from "swiper";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[30vh] md:h-[50vh] xl:h-[80vh]" id="hero">
+    <div className="relative w-full h-[35vh] md:h-[50vh] xl:h-[80vh]" id="hero">
       <div className="absolute top-[40%] left-0 z-10 w-full text-center">
         <h1 className="text-lg text-white font-semibold drop-shadow-md md:text-4xl xl:text-4xl">
           Welcome to
@@ -30,7 +30,7 @@ const Hero = () => {
         loop={true}
         slidesOffsetAfter={0}
         modules={[Autoplay, Pagination]}
-        className="mySwiper h-[30vh] md:h-[50vh] xl:h-[80vh]"
+        className="mySwiper h-[35vh] md:h-[50vh] xl:h-[80vh]"
       >
         <SwiperSlide>
           <img
