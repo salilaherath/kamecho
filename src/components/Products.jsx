@@ -1,5 +1,6 @@
 import Picture1 from "../assets/Picture1.webp";
 import Picture3 from "../assets/Picture3.webp";
+import Picture2 from "../assets/coco.jpg";
 import betel1 from "../assets/Betel1.webp";
 import betel2 from "../assets/Betel2.webp";
 import business1 from "../assets/business1.webp";
@@ -25,6 +26,39 @@ const Products = () => {
               Activated carbon made out of coconut shell charcoal, Coconut oil,
               Desiccated coconut, Coconut peat and Handcrafts.
             </p>
+            <h3 className="text-md md:text-lg font-medium mt-3">
+              Semi Husked Coconut - Product Specifications
+            </h3>
+
+            <table>
+              <tr className="mt-2 border-b">
+                <td className="font-medium px-3">Type:</td>
+                <td className="px-3 py-2">Semi Husked</td>
+              </tr>
+              <tr className="mt-2 border-b">
+                <td className="font-medium px-3">Size:</td>
+                <td className="px-3 py-2">&gt; 11 cm</td>
+              </tr>
+              <tr className="mt-2 border-b">
+                <td className="font-medium px-3">Color:</td>
+                <td className="px-3 py-2">Golden Brown Color</td>
+              </tr>
+              <tr className="mt-2 border-b">
+                <td className="font-medium px-3">Variety:</td>
+                <td className="px-3 py-2">Matured Coconut</td>
+              </tr>
+              <tr className="mt-2 border-b">
+                <td className="font-medium px-3">Weight (Per Nut):</td>
+                <td className="px-3 py-2">&gt; 500g</td>
+              </tr>
+              <tr className="mt-2 border-b">
+                <td className="font-medium px-3">Characteristics:</td>
+                <td className="px-3 py-2">
+                  No Sprout <br /> No Cracked / Broken <br /> Crested with 3
+                  eyes
+                </td>
+              </tr>
+            </table>
           </div>
           <div className="relative w-[100%] flex justify-between -z-[99] mt-6 md:mt-12">
             <img
@@ -33,7 +67,7 @@ const Products = () => {
               className="w-[49%] h-60 object-cover rounded-lg shadow-lg md:h-60 xl:h-80"
             />
             <img
-              src={Picture3}
+              src={Picture2}
               alt="Coconut Products"
               className="w-[49%] h-60 object-cover rounded-lg shadow-lg md:h-60 xl:h-80 absolute -top-[10%] right-0"
             />
