@@ -1,7 +1,7 @@
 import Picture1 from "../assets/Picture1.webp";
 import Picture3 from "../assets/Picture3.webp";
 import Picture2 from "../assets/coco.jpg";
-import Picture4 from "../assets/coco3.webp";
+import Picture4 from "../assets/coco2.webp";
 import betel1 from "../assets/Betel1.webp";
 import betel2 from "../assets/Betel2.webp";
 import business1 from "../assets/business1.webp";
@@ -76,7 +76,7 @@ const Products = () => {
             </table>
 
             <h3 className="text-lg xl:text-xl font-medium mt-5">
-              Coconut Grow Bags
+              Coco Peat Grow Bags
             </h3>
 
             <p className="text-justify">
