@@ -18,7 +18,7 @@ const Contact = () => {
         </p>
       </div>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d253136.6057827124!2d80.04632235937501!3d7.5466589062465825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2d1bc617a6bab%3A0x35ee2f853f29e136!2sDalupotha%20Coconut%20Estate%20%26%20Coconut%20exporters%20Kuliyapitiya!5e0!3m2!1sen!2slk!4v1685255994938!5m2!1sen!2slk"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1977.7223665769236!2d80.00046350062837!3d7.526373929128213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2d196180bbbd9%3A0x9bd36f3c3db204f5!2sKAM%20ECHO%20SOLUTIONS%20(PVT)%20LTD!5e0!3m2!1sen!2ssa!4v1695204511338!5m2!1sen!2ssa"
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
