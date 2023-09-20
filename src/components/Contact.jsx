@@ -9,7 +9,7 @@ const Contact = () => {
           CONTACT US
         </h1>
         <div className="flex items-center flex-col md:flex-row justify-around gap-10 md:gap-20 w-4/5 mt-12">
-          <div className="flex flex-col items-center justify-center gap-10 ">
+          <div className="flex flex-col items-center md:items-start justify-center gap-10 ">
             <Link
               to="hero"
               spy={true}
