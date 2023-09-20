@@ -45,7 +45,7 @@ const Products = () => {
               Specifications
             </h3>
 
-            <table className="text-start ml-auto mr-auto">
+            <table className="text-start xl:ml-0 xl:mr-0 ml-auto mr-auto">
               <tr className="mt-2 border-b">
                 <td className="font-medium px-3">Type:</td>
                 <td className="px-3 py-2">Semi Husked</td>
