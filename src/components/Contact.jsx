@@ -14,7 +14,7 @@ const Contact = () => {
           <br />
           0767138197
           <br />
-          anuradha@kamecho.lk
+          info@kamecho.com
         </p>
       </div>
       <iframe
