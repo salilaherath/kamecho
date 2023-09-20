@@ -19,6 +19,9 @@ const Hero = () => {
         <h1 className="text-2xl text-white font-semibold drop-shadow-md md:text-5xl xl:text-6xl">
           KAMEcho Solutions!
         </h1>
+        <p className="text-white text-xs md:text-lg">
+          Your Trusted Partner in the World of eco-friendly solutions
+        </p>
       </div>
 
       <Swiper
