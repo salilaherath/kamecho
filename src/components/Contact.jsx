@@ -31,7 +31,7 @@ const Contact = () => {
                 <>www.kamecho.com</>
               </a>
               <br />
-              info@kamecho.lk
+              info@kamecho.com
               <br />
               +94767138197
             </p>
