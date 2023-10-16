@@ -16,8 +16,8 @@ const Hero = () => {
         <h1 className="text-lg text-white font-semibold drop-shadow-md md:text-4xl xl:text-4xl">
           Welcome to
         </h1>
-        <h1 className="text-2xl text-white font-semibold drop-shadow-md md:text-5xl xl:text-6xl">
-          KAMEcho Solutions!
+        <h1 className="text-xl text-white font-semibold drop-shadow-md md:text-5xl xl:text-6xl">
+          KAM ECHO SOLUTIONS (PVT) LTD
         </h1>
         <p className="text-white text-xs md:text-lg">
           Your Trusted Partner in the World of eco-friendly solutions
